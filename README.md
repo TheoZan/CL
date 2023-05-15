@@ -14,9 +14,9 @@ Run the discrete.ipynb file to train an agent on a single building with only a b
 
 ## Reward
 There is 3 ways to compute the reward
- * the basic reward of the environment: - net electricity consumption
- * custom_reward = 1: compute consumption * (price + emission) * zeta
- * custom_reward = 2: compute consumption_no_storage - consumption * (price + emission)
+ * the basic reward of the environment: ``- net electricity consumption``
+ * custom_reward = 1: ``-consumption * (price + emission) * zeta``
+ * custom_reward = 2: ``- consumption_no_storage - consumption * (price + emission)``
  * custom_reward = 3: same as custom_reward = 1, but different coding
 
 # Results
