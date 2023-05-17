@@ -1,5 +1,9 @@
 # Install
 
+1 fork the repository
+
+2 install the following
+
 ``pip install citylearn``
 
 ``pip install stable_baselines3``
