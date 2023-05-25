@@ -30,3 +30,7 @@ The saved information about the learning curves are located in the ``train`` fol
 Use tensorboard to vizualize the curves. (on vs code CTRL+MAJ+P, Python: Launch TensorBoard, select ./train folder)
 
 
+# Clustering
+A module is implemented to cluster buildings based on their Non-shiftable load (NSL).
+Run the test_cluster.ipynb file to apply time series clustering on the buildings of the first climate zone.
+We defined k=3 clusters grouping the buildings. The value of k was found empirically.
